@@ -1,5 +1,5 @@
 # macchanger.py
-# a quick way to change your mac address with Python
+# a quick way to change your mac address using Python3
 import subprocess
 import optparse
 
