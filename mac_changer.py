@@ -1,4 +1,5 @@
 # python3
+# tested on kali linux
 # a quick & basic way to change your mac address
 
 import subprocess
