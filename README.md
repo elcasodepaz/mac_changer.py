@@ -1,20 +1,14 @@
-# mac_changer.py
-# a quick way to change your mac address using Python3
+# python3
+# a quick & basic way to change your mac address
+# more advance python programs coming soon! 
 import subprocess
-import optparse
 
-parser = optparse.OptionParser() 
+interface = input ("interface > ")
+new_mac = input("new MAC > ")
 
-parser.add_option("-i", "--interface", dest="interface", help="Interface to change its MAC address"
-parser.add_option("-i", "--mac", dest="new_mac", help="New MAC address")
 
-(options, arguments) = parser.parse_args()
+print("[+] Changing MAC address for " + interface + " to " + new_mac )
 
-interface = options.interface
-new_mac = options.new_mac
-
-print("[+] Changing MAC address for " + interface + " to " + new_mac)
-
-subprocess.call(["ifconfig", interface, "down"])
-subprocess.call(["ifconfig", interface, "hw", "ether", new_mac])
-subprocess.call(["ifconfig", interface, "up"])
+subprocess.call(["ifconfig " + interface + " down ", shell=True)
+subprocess.call(["ifconfig " + interface + " hw ether " + new_mac, shell=True)
+subprocess.call(["ifconfig " + interface + " up ", shell=True)
