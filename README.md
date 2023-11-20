@@ -3,7 +3,7 @@
 # you can use any code editor of you'r choice
  
 # GO TO YOUR OPT FILE 
-  cd /opt
+  - <b> cd /opt <b> 
 # download the respiratory 
 sudo https://
 
