@@ -1,7 +1,7 @@
 # python3
-# tested on kali linux
+# tested on kali linux and parrot OS
 # a quick & basic way to change your mac address
-
+# i am testing this on Arch soon 
 import subprocess
 
 interface = input ("interface > ")
