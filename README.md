@@ -5,5 +5,5 @@
 # GO TO YOUR OPT FILE 
   - <b> cd /opt <b> 
 # download the respiratory 
-sudo https://
+- <b> 
 
