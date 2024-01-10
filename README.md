@@ -11,7 +11,7 @@
 # you can use any code editor of you'r choice
  
 # GO TO YOUR editor 
-  - <b> cd /opt <b
+  - <b> cd /opt <b>
 # download the respiratory 
 - <b> 
 
